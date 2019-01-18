@@ -3,4 +3,4 @@ project(fabrique)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(fabrique main.cpp)
+add_executable(fabrique another.cpp)

@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/fabrique.dir/main.cpp.o"
+  "CMakeFiles/fabrique.dir/another.cpp.o"
   "fabrique.pdb"
   "fabrique"
 )

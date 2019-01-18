@@ -123,32 +123,32 @@ fabrique/fast:
 	$(MAKE) -f CMakeFiles/fabrique.dir/build.make CMakeFiles/fabrique.dir/build
 .PHONY : fabrique/fast
 
-main.o: main.cpp.o
+another.o: another.cpp.o
 
-.PHONY : main.o
+.PHONY : another.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/fabrique.dir/build.make CMakeFiles/fabrique.dir/main.cpp.o
-.PHONY : main.cpp.o
+another.cpp.o:
+	$(MAKE) -f CMakeFiles/fabrique.dir/build.make CMakeFiles/fabrique.dir/another.cpp.o
+.PHONY : another.cpp.o
 
-main.i: main.cpp.i
+another.i: another.cpp.i
 
-.PHONY : main.i
+.PHONY : another.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/fabrique.dir/build.make CMakeFiles/fabrique.dir/main.cpp.i
-.PHONY : main.cpp.i
+another.cpp.i:
+	$(MAKE) -f CMakeFiles/fabrique.dir/build.make CMakeFiles/fabrique.dir/another.cpp.i
+.PHONY : another.cpp.i
 
-main.s: main.cpp.s
+another.s: another.cpp.s
 
-.PHONY : main.s
+.PHONY : another.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/fabrique.dir/build.make CMakeFiles/fabrique.dir/main.cpp.s
-.PHONY : main.cpp.s
+another.cpp.s:
+	$(MAKE) -f CMakeFiles/fabrique.dir/build.make CMakeFiles/fabrique.dir/another.cpp.s
+.PHONY : another.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... fabrique"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... another.o"
+	@echo "... another.i"
+	@echo "... another.s"
 .PHONY : help
 
 

@@ -84,7 +84,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/fahr/git/fabrique/main.cpp">
+		<Unit filename="/home/fahr/git/fabrique/another.cpp">
 			<Option target="fabrique"/>
 		</Unit>
 		<Unit filename="/home/fahr/git/fabrique/CMakeLists.txt">
